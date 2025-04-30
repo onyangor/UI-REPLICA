@@ -1,194 +1,194 @@
+.typed-text {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #3b82f6;
+}
 
-        .typed-text {
-            font-size: 2.25rem;
-            font-weight: 700;
-            color: #3b82f6;
-        }
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #333;
+    margin-left: 5px;
+    animation: blink 1s infinite;
+}
 
-        .cursor {
-            display: inline-block;
-            width: 3px;
-            background-color: #333;
-            margin-left: 5px;
-            animation: blink 1s infinite;
-        }
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
 
-        @keyframes blink {
-            50% {
-                opacity: 0;
-            }
-        }
+.banner-info-grid p {
+    color: #6b7280;
+    /* Add this to make the paragraph wrap */
+    word-wrap: break-word;
+}
 
-        .banner-info-grid p {
-            color: #6b7280;
-        }
+.my-image img {
+    border-radius: 0;
+    max-width: 100%;
+    height: auto;
+}
 
-        .my-image img {
-            border-radius: 0;
-            max-width: 100%;
-            height: auto;
-        }
+.about-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7fafc;
+}
 
-        .about-section {
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            background-color: #f7fafc;
-        }
+.w3l-about-info {
+    padding-left: 2rem;
+}
 
-        .w3l-about-info {
-            padding-left: 2rem;
-        }
+.w3l-title-small {
+    color: #3b82f6;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
 
-        .w3l-title-small {
-            color: #3b82f6;
-            font-size: 1rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
+.w3l-title-main {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1rem;
+}
 
-        .w3l-title-main {
-            font-size: 2.25rem;
-            font-weight: 700;
-            color: #1e293b;
-            margin-bottom: 1rem;
-        }
+.my-info mt-4 div span {
+    font-weight: 600;
+    color: #1e293b;
+}
 
-        .my-info mt-4 div span {
-            font-weight: 600;
-            color: #1e293b;
-        }
+.my-info mt-4 div p {
+    color: #6b7280;
+}
 
-        .my-info mt-4 div p {
-            color: #6b7280;
-        }
+.follow-social {
+    margin-top: 2rem;
+}
 
-        .follow-social {
-            margin-top: 2rem;
-        }
+.follow-social h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-right: 1rem;
+}
 
-        .follow-social h5 {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #1e293b;
-            margin-right: 1rem;
-        }
+.follow-social li a span {
+    color: #4b5563;
+}
 
-        .follow-social li a span {
-            color: #4b5563;
-        }
+.btn-primary {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
 
-        .btn-primary {
-            background-color: #3b82f6;
-            color: #fff;
-            padding: 0.75rem 1.5rem;
-            border-radius: 0.375rem;
-            font-weight: 600;
-            transition: background-color 0.3s ease;
-        }
+.btn-primary:hover {
+    background-color: #2563eb;
+}
 
-        .btn-primary:hover {
-            background-color: #2563eb;
-        }
+.btn-secondary {
+    color: #3b82f6;
+    background-color: transparent;
+    border: 2px solid #3b82f6;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
 
-        .btn-secondary {
-            color: #3b82f6;
-            background-color: transparent;
-            border: 2px solid #3b82f6;
-            padding: 0.75rem 1.5rem;
-            border-radius: 0.375rem;
-            font-weight: 600;
-            transition: background-color 0.3s ease;
-        }
+.btn-secondary:hover {
+    background-color: #eff6ff;
+}
 
-        .btn-secondary:hover {
-            background-color: #eff6ff;
-        }
+.about-section .container {
+    max-width: 100%;
+}
 
-        .about-section .container {
-            max-width: 100%;
-        }
+.HomePageServices .container {
+    max-width: 100%;
+}
 
-        .HomePageServices .container {
-            max-width: 100%;
-        }
+.service-box {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-        .service-box {
-            background-color: #fff;
-            border-radius: 0.5rem;
-            padding: 2rem;
-            text-align: center;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+.service-box:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 6px 8px -1px rgba(0, 0, 0, 0.15), 0 3px 6px -1px rgba(0, 0, 0, 0.1);
+}
 
-        .service-box:hover {
-            transform: translateY(-0.5rem);
-            box-shadow: 0 6px 8px -1px rgba(0, 0, 0, 0.15), 0 3px 6px -1px rgba(0, 0, 0, 0.1);
-        }
+.service-icon {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #3b82f6;
+}
 
-        .service-icon {
-            margin-bottom: 1.5rem;
-            font-size: 2rem;
-            color: #3b82f6;
-        }
+.service-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
 
-        .service-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: #1e293b;
-        }
+.service-description {
+    color: #6b7280;
+}
 
-        .service-description {
-            color: #6b7280;
-        }
+.text-blue-600 {
+    color: #2563eb;
+}
 
-        .text-blue-600 {
-            color: #2563eb;
-        }
+#services {
+    background-color: #f3f4f6;
+    /* Light gray background */
+}
 
-        #services {
-            background-color: #f3f4f6;
-            /* Light gray background */
-        }
+.service-box {
+    background-color: #fff;
+    /* White boxes for services */
+    border-radius: 0.75rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 6px 10px -2px rgba(0, 0, 0, 0.15), 0 3px 7px -2px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-        .service-box {
-            background-color: #fff;
-            /* White boxes for services */
-            border-radius: 0.75rem;
-            padding: 2rem;
-            text-align: center;
-            box-shadow: 0 6px 10px -2px rgba(0, 0, 0, 0.15), 0 3px 7px -2px rgba(0, 0, 0, 0.07);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+.service-box:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 8px 12px -2px rgba(0, 0, 0, 0.2), 0 4px 8px -2px rgba(0, 0, 0, 0.08);
+}
 
-        .service-box:hover {
-            transform: translateY(-0.5rem);
-            box-shadow: 0 8px 12px -2px rgba(0, 0, 0, 0.2), 0 4px 8px -2px rgba(0, 0, 0, 0.08);
-        }
+.service-icon {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    color: #3b82f6;
+    /* Blue color for icons */
+}
 
-        .service-icon {
-            margin-bottom: 1.5rem;
-            font-size: 3rem;
-            color: #3b82f6;
-            /* Blue color for icons */
-        }
+.service-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #1e293b;
+    /* Darker text for titles */
+}
 
-        .service-title {
-            font-size: 1.75rem;
-            font-weight: 600;
-            margin-bottom: 1.25rem;
-            color: #1e293b;
-            /* Darker text for titles */
-        }
+.service-description {
+    color: #4b5563;
+    /* Slightly darker description text */
+    line-height: 1.75;
+}
 
-        .service-description {
-            color: #4b5563;
-            /* Slightly darker description text */
-            line-height: 1.75;
-        }
-
-        .text-blue-600 {
-            color: #3b82f6;
-        }
-   
+.text-blue-600 {
+    color: #3b82f6;
+}
