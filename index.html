@@ -8,8 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://unpkg.com/@tailwindcss/browser@latest"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-gray-100">
@@ -68,7 +67,7 @@
                 <div class="col-lg-7 banner-info-grid pt-lg-0 pt-5 HomePageHeroHeader">
                     <h1 class="mb-3 text-white text-4xl font-bold">Hi, I'm John Watson</h1>
                     <h3 class="mb-4 text-white">I'm a <span class="typed-text"></span><span class="cursor"></span> </h3>
-                    <p class="text-gray-300">I love Graphic design and Photography and have been working on my portfolio
+                    <p class="text-gray-300" style="word-wrap: break-word;">I love Graphic design and Photography and have been working on my portfolio
                         since 2016. I Can give your business a new Creative start right away!</p>
                     <div class="mt-5">
                         <a href="#hire" class="btn btn-primary mr-2">Hire Me</a>
@@ -86,15 +85,19 @@
 
     <section id="about" class="about-section py-5">
         <div class="container py-md-5 py-2">
-            <div class="row w3l-row items-center flex flex-wrap justify-content-center align-items-center">
-                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4 d-flex justify-content-center align-items-center">
-                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/about.jpg"
-                        alt="About Me" class="img-fluid rounded-md" style="max-height: 500px;">
+            <div class="row w3l-row items-center justify-content-center" style="display: flex; justify-content: center;">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4 d-flex justify-content-center align-items-center" style="max-width: 45%; margin-right: 2rem;">
+                    <img
+                        src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/about.jpg"
+                        alt="About Me"
+                        class="img-fluid rounded-md"
+                        style="max-height: 500px; width: 100%; object-fit: cover;"
+                    />
                 </div>
-                <div class="col-lg-7 w3l-about-info">
+                <div class="col-lg-7 w3l-about-info" style="max-width: 45%;">
                     <h6 class="w3l-title-small">My Biography</h6>
                     <h3 class="w3l-title-main">A Lead UI Designer &amp; Web Developer based in UK</h3>
-                    <p class="my-4 pe-lg-5 text-gray-700">
+                    <p class="my-4 pe-lg-5 text-gray-700" style="line-height: 1.7;">
                         I am a passionate and experienced UI/UX designer and web developer based in the UK. With a strong background in graphic design and photography, I have been building my portfolio since 2016. My goal is to provide businesses with creative and innovative solutions to enhance their online presence. I am dedicated to delivering high-quality work and ensuring client satisfaction. Contact me to discuss how I can help bring your projects to life.
                     </p>
                     <div class="my-info mt-4 d-flex justify-content-start flex-wrap">
@@ -219,9 +222,7 @@
         </div>
         <p class="mt-2 text-gray-400">© 2024 John Watson. All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
-
+<script src="script.js"></script>
 </body>
 
 </html>
