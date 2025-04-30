@@ -29,3 +29,8 @@ Tailwind CSS
 Font Awesome
 
 Typed.js
+
+## 🌐 Live Demo
+
+[Click here to view the live site](https://onyangor.github.io/UI-REPLICA/)
+
